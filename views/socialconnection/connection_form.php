@@ -9,8 +9,10 @@
 </span>*/ ?>
 <br />
 <div class="socialbuttons">
-	<a href="http://cansii.ushahidi.com/plugins/socialconnection/libraries/identificationGoogle.php" class="signInGoogle"><img class="googleplus" src = "/media/img/Red-signin_g+.png" /></a>
+	<a href="<?php echo url::base()?>plugins/Socialconnection/libraries/identificationGoogle.php" class="signInGoogle">
+	<img class="googleplus" src="<?php echo url::base() . "media/img/Red-signin_g+.png"; ?>"/>
+	</a>
 	<br>
-	<a href="http://cansii.ushahidi.com/plugins/socialconnection/libraries/identificationTwitter.php?authenticate=1" class="twitterlogo"></a>
+	<a href="<?php echo url::base()?>plugins/Socialconnection/libraries/identificationTwitter.php?authenticate=1" class="twitterlogo">Login con Twitter</a>
 </div>
 					

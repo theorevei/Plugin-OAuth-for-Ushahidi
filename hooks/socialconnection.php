@@ -30,7 +30,7 @@ class socialconnection {
     {
    // Hook into the main_sidebar event and call the Hello controller
 	// and the method _say_hello within the Hello controller
-	Event::add('ushahidi_action.login_user_form', array($this, 'connection'));
+	Event::add('ushahidi_action.login_new_user_form', array($this, 'connection'));
     }
 	
 	public function connection()

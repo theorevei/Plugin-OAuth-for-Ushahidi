@@ -13,7 +13,7 @@
  * @license    http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License (LGPL) 
  */
 
-class SocialConnection_Install {
+class Socialconnection_Install {
 
 	/**
 	 * Constructor to load the shared database library
@@ -28,6 +28,8 @@ class SocialConnection_Install {
 	 */
 	public function run_install()
 	{
+		
+
 		// Create the database tables.
 		
 		// Also include table_prefix in name
